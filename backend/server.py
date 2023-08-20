@@ -5,7 +5,7 @@ app = Flask(__name__)
 CORS(app, supports_credentials=True)
 
 bots = [{
-  "name": "智子",
+  "name": "客服实验",
   "title": "技術客服",
   "email": "Tech_boy@gmail.com",
   "photo": "img/friends/Tech_boy.png",
@@ -13,7 +13,7 @@ bots = [{
   "prompt": "我是一号"
 },
 {
-  "name": "智子2",
+  "name": "客服2",
   "title": "技術客服2",
   "email": "Tech_boy@gmail.com",
   "photo": "img/friends/Tech_boy.png",
@@ -22,7 +22,7 @@ bots = [{
 }]
 
 chat_bot_messages = {
-    "智子": [{
+    "客服": [{
   'messageType': 'cmsg',
   'icon': '../images/B.jpg',
   'name': 'nnkk',
@@ -35,7 +35,7 @@ chat_bot_messages = {
   'position': 'cleft',
   'content': '你说我回复不回复'
 }],
-    "智子2": [{
+    "客服2": [{
   'messageType': 'cmsg',
   'icon': '../images/B.jpg',
   'name': 'nnkk',
